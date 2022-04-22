@@ -1,0 +1,201 @@
+body{
+    background-color: #a8078d;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.element{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+
+.title{
+    text-transform:inherit;
+    color:#248232;
+    text-align: left;
+    padding: 30px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.title:hover{
+    text-decoration: underline;
+    color: rgb(165, 42, 134);
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+.wow{ 
+    color: #292;
+    text-align:vertical;
+    margin: left;
+}
+
+.wow{
+    /* width:-content; */
+    margin: 8px;
+}
+
+.wow:hover{
+    color: rgb(228, 82, 196);
+    transition: .4s ease-in-out;
+}
+.top-menu{
+    background-color: #056109;
+    overflow: hidden;
+}
+/* Nesting in CSS */
+
+.top-menu ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid #750462;
+    padding: 15px 20px;
+}
+
+.top-menu ul li a{
+    text-decoration: none;
+    color: #ad0a92;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.top-menu ul li:hover{
+    background-color: purple;
+}
+
+/* Hover effects on a chil */
+.top-menu ul li:hover a{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.main-image{
+    background-image: url('./download.jpg');
+    background-size: cover;
+    min-height: 70vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.main-image h2{
+    color: #05520c;
+    background-color: #ffffff;
+    padding: 30px;
+    opacity: .6;
+    border: 2px solid #83026d;
+}
+.btn{
+    background-color: #ffffff;
+    color: rgb(119, 7, 104);
+    border: 2px solid rgb(5, 116, 11);
+    padding: 8px 32px;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+.btn:hover{
+    background-color: chartreuse;
+    color: blueviolet;
+    transition-duration:.2s;
+}
+.Welcome p{
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 32px;
+}
+.Welcome{
+    background-color: green;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.row{
+    display:flex;
+    background-color: white;
+    flex-direction: row;
+}
+
+.col{
+    max-width: 50;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.px-3{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.py-4{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* program styling */
+.program{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.program .card img{
+    height: 250px;
+    /* width: 100PX; */
+    opacity: .7;
+}
+
+.program .card:hover img{
+    opacity: 1;
+}
+
+.program .card:hover .card-body{
+    color: white;
+    
+    background: linear-gradient(to left, rgb(197, 8, 134), rgb(226, 46, 196));
+}
+
+.program .card{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.text-start{
+    text-align: left !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.text-end{
+    text-align: right !important;
+}
+
+.credit{
+    background: linear-gradient(60deg, rgb(6, 88, 17), rgb(4, 167, 4));
+}
+.credit p{
+    color: #690651;
+    font-size: 24px;
+}
+
+.wow-2{ 
+    background-color: rgb(82, 165, 82);
+
+    color: white;
+    text-align:vertical;
+    flex-direction: row;
+     margin: left;
+}
