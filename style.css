@@ -78,7 +78,7 @@ body{
 .main-image{
     background-image: url('./download.jpg');
     background-size: cover;
-    min-height: 70vh;
+    min-height: 400px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -106,10 +106,10 @@ body{
     transition-duration:.2s;
 }
 .Welcome p{
-    width: 60%;
+    width: 80%;
     text-align: center;
-    font-weight: 500;
-    line-height: 32px;
+    font-weight: 600;
+    line-height: 16px;
 }
 .Welcome{
     background-color: green;
@@ -123,9 +123,33 @@ body{
 
 .row{
     display:flex;
-    background-color: white;
-    flex-direction: row;
+    width: 100%;
+    background-color: green;
+    color: green;
+  
+    
 }
+
+.row2{
+    background-color: green;
+    color:white;
+    display:inline;
+    align-items: center;
+    /* justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px; */
+}
+
+/* .row2{
+    display:flex;
+  
+    width: 100%;
+    background-color: green;
+    color: white;
+    /* align-items: center;
+    margin:0%; */
+   
+} */
 
 .col{
     max-width: 50;
@@ -154,7 +178,7 @@ body{
 
 .program .card img{
     height: 250px;
-    /* width: 100PX; */
+     width: 100%;
     opacity: .7;
 }
 
@@ -164,38 +188,10 @@ body{
 
 .program .card:hover .card-body{
     color: white;
-    
     background: linear-gradient(to left, rgb(197, 8, 134), rgb(226, 46, 196));
 }
 
 .program .card{
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.text-start{
-    text-align: left !important;
-}
-.text-center{
-    text-align: center !important;
-}
-.text-end{
-    text-align: right !important;
-}
-
-.credit{
-    background: linear-gradient(60deg, rgb(6, 88, 17), rgb(4, 167, 4));
-}
-.credit p{
-    color: #690651;
-    font-size: 24px;
-}
-
-.wow-2{ 
-    background-color: rgb(82, 165, 82);
-
-    color: white;
-    text-align:vertical;
-    flex-direction: row;
-     margin: left;
+    margin-top: 20px;
+    margin-bottom: 10%;
 }
